@@ -1,0 +1,226 @@
+*{margin: 0; box-sizing: border-box; padding: 0; font-family: sans-serif;}
+.clr{clear: both;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.bg1{background-color: royalblue;}
+.bg2{background-color: white;}
+.bg3{background-color: tomato;}
+.bg4{background-color: black;}
+.bg5{background-color: lightgray;}
+.bg6{background-color: skyblue;}
+.bg7{background-color: lightcoral;}
+.bg8{background-color: teal;}
+.bg9{background-color: turquoise;}
+.bg10{background-color: maroon;}
+header{padding-left: 5%; padding-right: 5%; float: left; width: 100%; height: 12vh; position: fixed; top: 0;}
+.title{font-size: 2rem; font-weight: 600; float: left; line-height: 12vh;}
+.title_design{text-decoration: none; color: white; text-transform: uppercase;}
+.nav{float: left; line-height: 12vh;}
+.nav ul{text-align: right;}
+.nav ul li{display: inline;}
+.nav ul li a{text-decoration: none; color: white; font-size: 1.2rem; text-transform: uppercase; padding: 3%;}
+.nav ul li a:hover{color: black; background-color: white; transition: 0.5s ease;}
+.searchbar{float: left; line-height: 12vh;}
+.searchbar_design{width: 60%; height: 32px; text-align: center; margin-left: 40%; border-radius: 10px 10px; border: none;}
+section{float: left; width: 100%;}
+.banner{
+width: 100%; 
+height: 88vh;
+margin-top: 12vh;
+background-image: linear-gradient(rgba(0,0,0,0.32),rgba(0,0,0,0.42)),url(images/banner.jpg);
+background-repeat: no-repeat;
+/* background-attachment: fixed; */
+background-size: 100% 100%;
+}
+.banner_title{
+text-transform: uppercase;
+color: white;
+font-size: 8rem;
+text-align: center;
+font-weight: 600;
+text-shadow: 0px 5px 5px black;
+line-height: 88vh;
+}
+article{float: left; width: 100%;}
+.band_description{margin-left: 25%;}
+.band_description h2{font-weight: 200; text-align: center; padding: 3%;}
+.band_description p{text-align: justify;}
+.cards{
+    margin-left: 25%;
+    display: grid;
+    grid-template-columns: 32.66% 32.66% 32.66%;
+    grid-template-rows: 50vh;
+    column-gap: 1%;
+    margin-top: 5vh;
+}
+.cardname{
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.card1{
+    width: 100%;
+    height: 90%;
+}
+.card2{
+    width: 100%;
+    height: 90%;
+}
+.card3{
+    width: 100%;
+    height: 90%;
+}
+.sectionbody{
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10vh;
+}
+.sectionbody h2{
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding: 1%;
+}
+.sectionbody p{
+    text-align: center;
+    color: grey;
+    font-style: italic;
+}
+.date_selection{
+    color: white;
+    text-shadow: 0px 2px 2px black;
+    font-weight: 600;
+    margin-left: 25%;
+    margin-top: 5vh;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2%;
+    background-color: grey;
+    border-radius: 10px 10px;
+}
+.dateboxarea{
+    width: 50%;
+    height: 30px;
+}
+.book{
+    height: 30px;
+    padding: 1%;
+    border: 0px solid;
+    
+}
+.book:hover{
+    background-color: black;
+    color: white;    
+}
+.buy_tickets{
+    margin-left: 25%;
+    display: grid;
+    grid-template-columns: 32.66% 32.66% 32.66%;
+    grid-template-rows: 70vh;
+    column-gap: 1%;
+    margin-top: 5vh;
+    text-align: center;
+}
+.ticket1{
+    width: 100%;
+    height: 40%;
+}
+.ticket2{
+    width: 100%;
+    height: 40%;
+}
+.ticket3{
+    width: 100%;
+    height: 40%;
+}
+.purchase{
+    width: 15%;
+    height: 8vh;
+}
+.buy_tickets .item1{
+    margin-top: 5vh;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: brown;
+}
+.buy_tickets .item2{
+    margin-top: 2vh;
+}
+.buy_tickets .item3{
+    margin-top: 2vh;
+}
+.purchase{
+    margin-top: 5vh;
+    width: 50%;
+    height: 30px;
+    border: 0px solid;
+}
+.purchase:hover{background-color: black; color: white;}
+.contact{
+    float: left;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 5%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.fan{
+    float: left;
+    margin-left: 25%;
+    text-align: center;
+    font-style: italic;
+    padding-top: 1%;
+}
+.address{
+    margin-top: 5vh;
+    float: left;
+    margin-left: 25%;
+    
+}
+.note{
+    float: left;
+    margin-top: 5vh;
+    
+    
+}
+.name{width: 100%;}
+.emailid{margin-top: 1vh; width: 100%;}
+.message{margin-top: 1vh; width: 100%;}
+.message_button{
+    width: 30%;
+    border: 0px solid;
+    height: 30px;
+}
+.message_button:hover{
+    background-color: black;
+    color: white;
+}
+.banner-2{
+    margin-top: 10vh;
+    width: 100%;
+    height: 100vh;
+    /* float: left; */
+    background-image: url(images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
